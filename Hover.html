@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <!-- when user over it the button style get change  for focus when user click on the button the the style get change and will not get back to orginal style as it indicates user clicked the button we can also perform this on the links
+     when you click on button or link when you unclick the  mouse it will comes to original styling   for that   we use active  -->
+     hover
+    <button type="button" class="bg-black py-5 px-3 text-white hover:bg-orange-500 hover:rounded-lg hover:text-black" > Submit
+    focus
+    </button>
+    <button type="button" class="bg-black py-5 px-3 text-white focus:bg-green-500 focus:rounded-lg focus:text-black" > Submit
+    active
+    </button>
+    <button type="button" class="bg-black py-5 px-3 text-white active:bg-yellow-500 active:rounded-lg active:text-black" > Submit
+
+    </button>
+    psuedoclasses
+    <ul>
+        <li class="even:border-2 bg-green-300 odd:bg-blue-200 ">item 1</li>
+        <li  class="even:border-2 bg-green-300 odd:bg-blue-200 ">item 2</li>
+        <li  class="even:border-2 bg-green-300 odd:bg-blue-200 ">item 3</li>
+        <li  class="even:border-2 bg-green-300 odd:bg-blue-200 ">item 4</li>
+        <li class="even:border-2 bg-green-300 odd:bg-blue-200 ">item 5</li>
+    </ul>
+  cursor 
+  <button type="button" class="cursor-pointer bg-orange-500 text-black">
+    Submit
+  </button>
+  <button type="button" class="cursor-progress bg-orange-500 text-black">
+    Saving...
+  </button>
+  <button type="button" disabled class="cursor-not-allowed bg-orange-500 text-black">
+    <!-- cursor not allowed is like it shows a sybmol to not clickable -->
+    Confirm
+  </button>
+  <!-- resize is used for textarea to extended it space by draging horizontal and vertical by resize-x and rezise-y for both side we use resize and for not allow to dragable we keep resize-none -->
+  <textarea class="resize border-2 border-blue-300"></textarea>
+  <textarea class="resize-x border-2 border-black"></textarea>
+  <textarea class="resize-y border-2 border-orange-300"></textarea>
+  <textarea class="resize-none border-2 border-green-300"></textarea>
+
+  <div class="select-none">
+    <!-- we can not select any content to copy like text or image -->
+    The quick brown fox jumps over the lazy dog.
+  </div>
+  <div class="select-text">
+        <!-- we can  select any content to copy like text -->
+
+    The quick brown fox jumps over the lazy dog.
+  </div>
+  <div class="select-all">
+        <!-- we can  select any content to copy like text or image -->
+
+    The quick brown fox jumps over the lazy dog.
+  </div><
+  <div class="select-auto">
+    The quick brown fox jumps over the lazy dog.
+
+
+
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut temporibus laboriosam modi iste voluptatum totam cumque adipisci? Incidunt expedita, dolores maiores nesciunt fuga, sapiente, qui libero eaque nihil ipsa provident.
+</div>
+
+
+</body>
+</html>
